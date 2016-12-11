@@ -1,4 +1,28 @@
 function [ data ] = retrieve_solarbeat( startday, endday, host, db )
+%{
+Name:   retrieve_solarbeat.m
+
+Version history:
+    2016-12-11: v0.1, initial version
+
+Author: Xin Xu (xuxin.cqu@live.com)
+
+Required:
+    1. MATLAB
+    2. MATLAB database toolbox
+    (https://www.mathworks.com/products/database.html)
+    3. Credentials of SolarBEAT server (may be requested from dr. Roland
+    Valckenborg from SEAC)
+    4. Understanding of MATLAB timetable data type
+    (https://nl.mathworks.com/help/matlab/timetables.html)
+
+Purpose:
+    This MATLAB function may retrieve measurement data from SEAC SolarBEAT
+    server. User can define the period to retrieve. Data will be organized
+    in a MATLAB timetable, which can be converted to any format by the user. 
+
+%}
+
 %% parameters
 starttime = '00:00:00';
 endtime = '23:59:59';
