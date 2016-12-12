@@ -46,7 +46,7 @@ for i=1:1:length(db)
     data{i} = [];
     k = 1;
     
-    while today ~= endday
+    while today < endday
         % construct daily timetable
         Time = transpose(datetime(datevec(today)):minutes(1):datetime(datevec(today+hours(23)+minutes(59))));
         Index = transpose(k:1:k-1+length(Time));
