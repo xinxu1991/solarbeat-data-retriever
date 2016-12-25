@@ -8,7 +8,7 @@ Version history:
 Author: Xin Xu (xuxin.cqu@live.com)
 
 Required:
-    1. MATLAB
+    1. MATLAB R2016b or newer
     2. MATLAB database toolbox
     (https://www.mathworks.com/products/database.html)
     3. Credentials of SolarBEAT server (may be requested from dr. Roland
