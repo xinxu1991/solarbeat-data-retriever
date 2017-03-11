@@ -1,5 +1,11 @@
 # solarbeat-data-retriever
 A MATLAB function to retrieve data from SEAC SolarBEAT. More information on SEAC: https://www.seac.cc
+# 2 branches
+There are 2 branches available: master and legacy. You can switch branch from the dropdown menu in the upper left. Click download button on the right to download scripts as a zip.
+## Master branch
+Master branch uses the feature _timetables_ of the latest MATLAB (since **R2016b**), [see documentation](https://nl.mathworks.com/help/matlab/timetables.html). If you don't know how to work with timetables, or have lower version MATLAB, use legacy version instead.
+## Legacy branch
+Doing the same thing as the master branch, but by using traditional array and cell. 
 # Tutorial
 ## Get credentials from SolarBEAT
 Please contact Dr. Valckenborg for credentials (IP, username, password, etc.) of SolarBEAT database.
